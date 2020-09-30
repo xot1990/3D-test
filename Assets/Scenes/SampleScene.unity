@@ -2139,7 +2139,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 14
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &157444218
 MonoBehaviour:
@@ -5038,6 +5038,7 @@ GameObject:
   - component: {fileID: 454876805}
   - component: {fileID: 454876811}
   - component: {fileID: 454876807}
+  - component: {fileID: 454876812}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -5148,7 +5149,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454876804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.08, y: 0.886, z: 1.09}
+  m_LocalPosition: {x: 7, y: 0.886, z: 1}
   m_LocalScale: {x: 1, y: 0.32980943, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5168,6 +5169,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &454876812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454876804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a34f7972c78cf4b9f877e16cb1f886, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Points:
+  - {x: 7, y: 0.886, z: 1}
+  - {x: 1, y: 0.886, z: 1}
+  - {x: 1, y: 0.886, z: 9}
+  - {x: 7, y: 0.886, z: 9}
+  - {x: 7, y: 0.886, z: 7}
+  - {x: 4, y: 0.886, z: 7}
+  Dest: 0
 --- !u!4 &457205659 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 413476, guid: 4322256955695a94a84fec782ec10d7a, type: 3}

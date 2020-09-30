@@ -15,15 +15,14 @@ public  class FragmentMeshCreator : MonoBehaviour
         M.transform.parent = Per;
         M.transform.position = Per.position;
         myMeshFilter = M.GetComponent<MeshFilter>();
-        Create(45, 2, 2f);
+        
        
         
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("2");
-        if (collision.gameObject.tag == "Player") Debug.Log("1");
+        
     }
 
     private void Update()

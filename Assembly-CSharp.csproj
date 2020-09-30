@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A513BC8D-6A7D-D6C5-EEBE-D27CF600D276}</ProjectGuid>
+    <ProjectGuid>{B7EAA686-9A28-5837-607E-77746BB59A2E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -52,21 +52,25 @@
     <UnityVersion>2020.1.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Camera.cs" />
-    <Compile Include="Assets\FragmentMeshCreator.cs" />
+    <Compile Include="Assets\Code\Camera.cs" />
+    <Compile Include="Assets\Code\FragmentMeshCreator.cs" />
     <Compile Include="Assets\YuME\Scripts\YuME_prefabSamplerData.cs" />
     <Compile Include="Assets\YuME\Scripts\YuME_Preferences.cs" />
     <Compile Include="Assets\YuME\Scripts\YuME_GizmoGrid.cs" />
-    <Compile Include="Assets\GG.cs" />
+    <Compile Include="Assets\Code\GG.cs" />
     <Compile Include="Assets\YuME\Scripts\YuME_tilesetData.cs" />
-    <Compile Include="Assets\ViewUtility.cs" />
-    <Compile Include="Assets\UnitBase.cs" />
+    <Compile Include="Assets\Code\ViewUtility.cs" />
+    <Compile Include="Assets\Code\UnitBase.cs" />
+    <Compile Include="Assets\Code\AI.cs" />
     <Compile Include="Assets\YuME\Scripts\YuME_MapManager.cs" />
     <Compile Include="Assets\YuME\Scripts\YuME_importerSettings.cs" />
     <Compile Include="Assets\YuME\Scripts\YuME_tileGizmo.cs" />
     <Compile Include="Assets\YuME\Scripts\YuME_editorPreferences.cs" />
     <Compile Include="Assets\YuME\Scripts\YuME_editorData.cs" />
-    <Compile Include="Assets\AI.cs" />
+    <Compile Include="Assets\Code\SpawnScript.cs" />
+    <Compile Include="Assets\Code\Bomb.cs" />
+    <Compile Include="Assets\Code\AnimaMenu.cs" />
+    <Compile Include="Assets\Code\ButtonBoom.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -257,9 +261,6 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.6f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.6f1\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.6f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

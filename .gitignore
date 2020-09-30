@@ -1,1 +1,7 @@
 Library
+/Artifacts
+Library\PackageCache
+Library\PackageManager
+Library\ScriptAssemblies
+Library\ShaderCache
+Library\StateCache
